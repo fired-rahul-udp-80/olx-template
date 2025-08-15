@@ -10,7 +10,7 @@ export default function App() {
   const hideNav = pathname.startsWith("/sell");
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen w-full bg-gray-100">
  
       {!hideNav && <Navbar />}
       <Routes>

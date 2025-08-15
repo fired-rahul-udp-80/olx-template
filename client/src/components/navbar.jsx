@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Plus } from "lucide-react";
 export default function Navbar() {
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white shadow-lg">
       <div className="mx-auto max-w-7xl px-4 py-3 flex items-center gap-4">
         <Link to="/" className="text-2xl font-extrabold text-blue-600">
           OLX
